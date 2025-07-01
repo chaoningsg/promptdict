@@ -12,7 +12,8 @@ export default defineConfig({
 			        src: './src/assets/light.svg',
 			        alt: 'PromptDict',
 			        replacesTitle: true,
-				
+				light: './src/assets/light.svg',
+				dark: './src/assets/dark.svg',
 			      },
 			sidebar: [
 				{
