@@ -9,7 +9,7 @@ export default defineConfig({
 			title: 'PromptDict',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
 			logo: {
-			        src: './src/assets/light.svg',
+			        
 			        alt: 'PromptDict',
 			        replacesTitle: true,
 				light: './src/assets/light.svg',
