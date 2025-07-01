@@ -8,6 +8,7 @@ export default defineConfig({
 		starlight({
 			title: 'PromptDict',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			
 			sidebar: [
 				{
 					label: 'Guides',
@@ -22,5 +23,9 @@ export default defineConfig({
 				},
 			],
 		}),
+		type LogoConfig = { alt?: 'PromptDict'; replacesTitle?: true } & (
+		  | { src: './src/assets/light.svg' }
+		  | { light: './src/assets/light.svg'; dark: './src/assets/dark.svg' }
+		);
 	],
 });
